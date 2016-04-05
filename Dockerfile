@@ -6,5 +6,5 @@ RUN /opt/jboss/wildfly/bin/add-user.sh -a robert 0p3ns0urc3
 RUN /opt/jboss/wildfly/bin/add-user.sh -a admin c@nd1c3
 RUN /opt/jboss/wildfly/bin/add-user.sh -a nevin 0p3ns0urc3
 
-ADD installs/poc dependencies/* $JBOSS_HOME/standalone/deployments/$KIE_CONTEXT_PATH.war/WEB-INF/lib/
-ADD installs/poc dependencies/* $JBOSS_HOME/standalone/deployments/$DASHBUILDER_CONTEXT_PATH.war
+ADD installs/poc-dependencies/* $JBOSS_HOME/standalone/deployments/$KIE_CONTEXT_PATH.war/WEB-INF/lib/
+ADD installs/poc-dependencies/* $JBOSS_HOME/standalone/deployments/$DASHBUILDER_CONTEXT_PATH.war
