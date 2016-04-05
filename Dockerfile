@@ -1,4 +1,4 @@
-FROM docker pull jboss/jbpm-workbench
+FROM jboss/jbpm-workbench
 
 MAINTAINER "Robert Greathouse" "cyotee@gmail.com"
 
